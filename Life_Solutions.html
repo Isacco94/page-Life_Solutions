@@ -5,53 +5,91 @@
     <head>
     
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Life Solutions</title>
+        <link rel="stylesheet" href="reset.css/reset.css">
         <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     </head>
 
     <body>
 
         <header>
-            <h1 class="titulo-principal">LIFE SOLUTIONS</h1>
+            <div class="caja">
+                <h1><img id = "life" src="life.png" class="life"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="Life_Solutions.html">home</a></li>
+                        <li><a href="productos.html">productos</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <img id="logo" src="logo.png">
+        <img class="logo" src="1.jpg">
 
-        <div class="bloque principal">
+        <main>
 
-            <h2 class="titulo-centralizado">Sobre Life Solutions</h2>
+            <section class="bloque principal">
 
-            <h3 class="titulo-centralizado" id="subtitulos"><strong>¿Quienes somos?</strong></h3>
+                <h2 class="titulo-principal">Sobre Life Solutions</h2>
 
-            <p>Somos una consultoría iniciada en 2008 con gran experiencia en el mercado asegurador. 
-            Trabajando día a día para la protección de las familias mexicanas contra situaciones que están presentes en la vida de cada uno de los integrantes, satisfaciendo las necesidades de nuestros clientes a través de soluciones reales, asistiendo en la realización de sus metas económicas para negocios y personales.
+                <img class="IAlife" src="life.jpg" alt="life-solutions-IA">
 
-            <h4 class="titulo-centralizado" id="subtitulos"><strong>Nuestro Objetivo</strong></h4>
+                <h3 class="titulo-centralizado" id="subtitulos"><strong>¿Quienes somos?</strong></h3>
 
-            <p>Brindar asesoría objetiva con  los más altos estándares de calidad, escuchando, comprendiendo y resolviendo las necesidades de nuestros clientes.</p>
+                <p>Somos una consultoría iniciada en 2008 con gran experiencia en el mercado asegurador. 
+                Trabajando día a día para la protección de las familias mexicanas contra situaciones que están presentes en la vida de cada uno de los integrantes, satisfaciendo las necesidades de nuestros clientes a través de soluciones reales, asistiendo en la realización de sus metas económicas para negocios y personales.
 
-            <h5 class="titulo-centralizado" id="subtitulos"><strong>Misión</strong></h5>
+                <h4 class="titulo-centralizado" id="subtitulos"><strong>Nuestro Objetivo</strong></h4>
 
-            <p><em>Satisfacer las necesidades de nuestros clientes, a través de un servicio de calidad inigualable en el mercado asegurador, por medio de soluciones creativas y reales.</em></p>
+                <p>Brindar asesoría objetiva con  los más altos estándares de calidad, escuchando, comprendiendo y resolviendo las necesidades de nuestros clientes.</p>
 
-        </div>
+                <h5 class="titulo-centralizado" id="subtitulos"><strong>Misión</strong></h5>
 
-        <div class="diferenciales">
+                <p><em>"Satisfacer las necesidades de nuestros clientes, a través de un servicio de calidad inigualable en el mercado asegurador, por medio de soluciones creativas y reales".</em></p>
 
-            <h6 class="titulo-centralizado" id="subtitulos">¿En que nos especializamos?</h6>
+            </section>
 
-            <ul>
-                <li class="items">Seguros de Vida, Ahorro e Inversión</li>
-                <li class="items">Gastos Médicos Mayores</li>
-                <li class="items">Seguros de Auto y Moto</li>
-                <li class="items">Seguros Empresariales</li>
-            
-            </ul>
+            <section class="mapa">
+                <h3 class="titulo-principal">Nuestra Ubicación</h3>
+                <p>Nuestra oficina central se encuentra ubicada enfrente del ángel de la independencia.</p>
 
-            <img id = "ahorro" src="Ahorro y protección.jpg" class="imagenahorro">
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.690396330482!2d-99.17002822466465!3d19.425778581852175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35fd9bbcb1%3A0x4256c289ca82f4a0!2sAv.%20P.%C2%BA%20de%20la%20Reforma%20342%2C%20Ju%C3%A1rez%2C%20Cuauht%C3%A9moc%2C%2006500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1706046981048!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </section>
 
-        </div>
+            <section class="diferenciales">
+
+                <h6 class="titulo-secundario" id="subtitulos">¿En que nos especializamos?</h6>
+
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
+                        <li class="items">Seguros de Vida, Ahorro e Inversión</li>
+                        <li class="items">Gastos Médicos Mayores</li>
+                        <li class="items">Seguros de Auto y Moto</li>
+                        <li class="items">Seguros Empresariales</li>
+                    </ul><img id = "ahorro" src="imagen.jpg" class="imagen-diferenciales">
+                </div>
+
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/E_GGHyQQLnE?si=7hiupHf6mYdtGeSG&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <img src="Imagen2.png">
+            <p class="copyrigth">&copy Copyrigth Life Solutions - 2008</p>
+        </footer>
 
     </body>
 

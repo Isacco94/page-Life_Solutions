@@ -1,0 +1,67 @@
+body{
+    background-color: #ffffff;
+}
+
+.titulo-principal{
+    padding: 30px;
+}
+
+#logo{
+    width: 100%;
+}
+
+.principal{
+    background-color: blue;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 120px;
+    color: blanchedalmond;
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+strong{
+    color: white;
+}
+
+#subtitulos{
+    font-size: 40px;
+}
+
+.diferenciales{
+    background-color: #ffffff;
+}
+
+.items{
+    font-style: italic;
+    height: 50px;
+    font-size: 25px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+    padding: 20px;
+    margin: 40px;
+}
+
+#ahorro{
+    width: 55%;
+    padding: 30px;
+}
